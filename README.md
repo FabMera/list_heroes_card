@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #
+=======
+# HeroesApp
+Proyecto en Angular y Angular Material.
+CRUD,
+Listado de Cards de una api de heroes que muestra los detalles con distintas rutas.
+>>>>>>> f8479d0a7b2c9d3eb28ba93c65844b42fe6b7875
 
 Heroes app
 
