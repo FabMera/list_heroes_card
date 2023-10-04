@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
     templateUrl: './layout-pages.component.html',
     styleUrls: ['./layout-pages.component.css'],
 })
-export class LayoutPagesComponent {}
+export class LayoutPagesComponent {
+    public sidebarItems = [
+        { label: 'Listado', icon: 'label', url: './list' },
+        { label: 'Añadir', icon: 'add', url: './new-hero' },
+        { label: 'Buscar', icon: 'search', url: './search' },
+    ];
+}

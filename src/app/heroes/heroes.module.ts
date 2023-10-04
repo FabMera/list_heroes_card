@@ -7,6 +7,9 @@ import { LayoutPagesComponent } from './pages/layout-pages/layout-pages.componen
 import { ListPagesComponent } from './pages/list-pages/list-pages.component';
 import { NewPagesComponent } from './pages/new-pages/new-pages.component';
 import { SearchPagesComponent } from './pages/search-pages/search-pages.component';
+import { MaterialModule } from '../material/material.module';
+import { CardComponent } from './components/card/card.component';
+import { HeroImagePipe } from './pipes/hero-image.pipe';
 
 
 @NgModule({
@@ -15,11 +18,14 @@ import { SearchPagesComponent } from './pages/search-pages/search-pages.componen
     LayoutPagesComponent,
     ListPagesComponent,
     NewPagesComponent,
-    SearchPagesComponent
+    SearchPagesComponent,
+    CardComponent,
+    HeroImagePipe
   ],
   imports: [
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
+    MaterialModule
   ]
 })
 export class HeroesModule { }

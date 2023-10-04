@@ -30,10 +30,6 @@ const routes: Routes = [
             },
             {
                 path: ':id',
-                redirectTo: 'new-hero',
-            },
-            {
-                path: ':id',
                 component: HeroPagesComponent,
             },
             {
